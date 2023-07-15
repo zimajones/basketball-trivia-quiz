@@ -1,0 +1,28 @@
+.image-container {
+    background-image: url('basketball-rims-header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as per your image */
+    position: relative;
+  }
+  
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}
+
+.text-overlay h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        color: white; /* Set the desired text color */
+      }
+      
+.text-overlay h2 {
+        font-size: 24px;
+        color: white; /* Set the desired text color */
+      }
+      body {
+        background-color: lightblue;
+      }
