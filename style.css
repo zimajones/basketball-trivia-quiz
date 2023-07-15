@@ -2,7 +2,7 @@
     background-image: url('basketball-rims-header.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust the height as per your image */
+    height: 300px; 
     position: relative;
   }
   
@@ -16,12 +16,12 @@
 .text-overlay h1 {
         font-size: 36px;
         margin-bottom: 10px;
-        color: white; /* Set the desired text color */
+        color: white; 
       }
       
 .text-overlay h2 {
         font-size: 24px;
-        color: white; /* Set the desired text color */
+        color: white; 
         left: 5%;
       }
       body {
@@ -33,7 +33,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh; /* Adjust the height as needed */
+        height: 100vh;
       }
 
 .question-box {
@@ -49,9 +49,49 @@
         background-color: #f5f5f5;
       }
  .question-box h2 {
-        color: #000; /* Set the desired text color for the question */
+        color: #000; 
       }
       
 .answers-box button.choice {
-        color: #000; /* Set the desired text color for the answer choices */
+        color: #000; 
       }
+
+      .answers-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 10px;
+      }
+      
+      .choice-box {
+        border: 1px solid #000;
+        padding: 10px;
+        background-color: #fff;
+        width: 100%; 
+        box-sizing: border-box; 
+      }
+      
+      .choice {
+        background-color: transparent;
+        border: none;
+        color: #000;
+        cursor: pointer;
+      }
+
+      .time-box {
+        position: fixed;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        width: 200px;
+        background-color: #f5f5f5;
+        padding: 20px;
+        border: 2px solid #000;
+        color: #000; /* Set the text color to black */
+      }
+      
+      .center-elements {
+        margin-left: 240px; 
+      }
+      
+      
+      

@@ -5,6 +5,9 @@
   <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+    <div id="time-container" class="time-box">
+        <div id="timer">Time Remaining: <span id="time-value">10</span></div>
+      </div>
     <header class="image-container">
         <div class="text-overlay">
           <h1>Basketball Trivia Quiz</h1>
@@ -17,16 +20,24 @@
       </div>
       
       <div id="answers-container" class="answers-box">
-        <ul id="choices">
-          <li><button class="choice">Choice 1</button></li>
-          <li><button class="choice">Choice 2</button></li>
-          <li><button class="choice">Choice 3</button></li>
-          <li><button class="choice">Choice 4</button></li>
-        </ul>
+        <div id="answers-container" class="answers-box">
+            <div class="choice-box">
+              <button class="choice">Choice 1</button>
+            </div>
+            <div class="choice-box">
+              <button class="choice">Choice 2</button>
+            </div>
+            <div class="choice-box">
+              <button class="choice">Choice 3</button>
+            </div>
+            <div class="choice-box">
+              <button class="choice">Choice 4</button>
+            </div>
+            
+          </div>
       </div>
     <div id="feedback"></div>
     <div id="score">Score: <span id="score-value">0</span></div>
-    <div id="timer">Time Remaining: <span id="time-value">10</span></div>
     <button id="submit">Submit</button>
     <button id="next">Next Question</button>
   </main>
