@@ -8,8 +8,8 @@
   
 .text-overlay {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 35%;
+    left: 35%;
     
 }
 
@@ -22,7 +22,36 @@
 .text-overlay h2 {
         font-size: 24px;
         color: white; /* Set the desired text color */
+        left: 5%;
       }
       body {
-        background-color: lightblue;
+        background-color: black;
+        color: white;
+      }
+.center-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Adjust the height as needed */
+      }
+
+.question-box {
+        border: 2px solid #000;
+        padding: 20px;
+        background-color: #f5f5f5;
+        margin-bottom: 20px;
+      }
+      
+.answers-box {
+        border: 2px solid #000;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+ .question-box h2 {
+        color: #000; /* Set the desired text color for the question */
+      }
+      
+.answers-box button.choice {
+        color: #000; /* Set the desired text color for the answer choices */
       }
