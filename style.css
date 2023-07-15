@@ -86,12 +86,31 @@
         background-color: #f5f5f5;
         padding: 20px;
         border: 2px solid #000;
-        color: #000; /* Set the text color to black */
+        color: #000;
       }
       
-      .center-elements {
-        margin-left: 240px; 
+      #score-container {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
       }
+      
+      #score-label {
+        margin-right: 5px;
+      }
+      
+      #score-value {
+        font-weight: bold;
+      }
+
+      #submit,
+#next {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+}
       
       
       
