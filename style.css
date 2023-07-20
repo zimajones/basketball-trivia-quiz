@@ -56,11 +56,12 @@
         color: #000; 
       }
 
-      .answers-box {
+      /*.answers-box {
         display: grid;
         grid-template-columns: 1fr 1fr; 
         grid-gap: 10px;
-      }
+        width: 90%;
+      } */
       
       .choice-box {
         border: 1px solid #000;
@@ -68,13 +69,19 @@
         background-color: #fff;
         width: 100%; 
         box-sizing: border-box; 
-      }
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        gap: 10px;
+      } 
       
       .choice {
         background-color: transparent;
         border: none;
         color: #000;
         cursor: pointer;
+        text-align: center;
+        
       }
 
       .time-box {
